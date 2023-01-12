@@ -9,10 +9,7 @@
 
 ## Screenshots
 
-![Home Page](https://drive.google.com/file/d/1SUnNNfG-bJs6QluiqGnDH17q5KFMGzX4/view?usp=share_link)
-![Explore Page](https://drive.google.com/file/d/139kRHAA7Ftl7crSbhQRZMbaK9LPAlFoI/view?usp=share_link)
-![Home Page after Login](https://drive.google.com/file/d/1oO-eHXQFk0KrcEB8t0YgOr1s1kJYViua/view?usp=share_link)
-![Explore Page Down Side](https://drive.google.com/file/d/1MfDXDYkmlNm7uU3zI1uYTBBLEIbX_Pir/view?usp=share_link)
+![Program Working](https://github.com/mokshverma-dev/calculator/blob/main/screenshot.png)
 
 ##  Source Code of the Program
 
