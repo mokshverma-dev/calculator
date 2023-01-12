@@ -13,7 +13,7 @@
 
 ##  Source Code of the Program
 
-[calculator.py](https://drive.google.com/drive/folders/16IRKsXFOKQ2e7Ep4NbPQfihPqGf9ZyJF?usp=share_link)
+[calculator.py](https://github.com/mokshverma-dev/calculator/blob/main/calculator.py)
 
 ## Tech Stack
 
