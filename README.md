@@ -7,6 +7,12 @@
 ### ~ Calculator for Mathematical and Simple Interest Calculation (CLI Version)
 
 
+## Operations
+
+- Mathematical Calculations
+- Simple Interest Calculation
+
+
 ## Screenshots
 
 ![Program Working](https://github.com/mokshverma-dev/calculator/blob/main/screenshot.png)
