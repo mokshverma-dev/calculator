@@ -2,7 +2,7 @@
 # Hi, I'm Moksh Verma! 👋
 
 
-# Calculator
+# CALCULATOR made with Python
 
 ### ~ Calculator for Mathematical and Simple Interest Calculation (CLI Version)
 
