@@ -16,7 +16,7 @@
 
 ## Screenshots
 
-![Program Working]()
+![Program Working](https://github.com/mokshverma-dev/calculator/blob/main/screenshot.png)
 
 ##  Source Code of the Program
 
