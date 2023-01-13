@@ -11,7 +11,7 @@
 
 - Mathematical Calculations
 - Simple Interest Calculation
-- BMI Cal
+- BMI Calculation
 
 
 ## Screenshots
