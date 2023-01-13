@@ -1,5 +1,7 @@
+global run
 # ---------------------------------------------------------------
 # These all 4 functions are of Mathematical Calculations
+
 
 def addition():
     number1, number2 = int(input(" -> Enter the value of 1st number : ")
@@ -74,6 +76,20 @@ def simple_interest_calculator():
           (principle_amount*interest_rate*time_period)/100)
 
 # ---------------------------------------------------------------
+# Function where BMI Calculator will be Calculated
+
+
+def bmi_calculator():
+    print(''''Here is your BMI CALCULATOR'
+=====================
+''')
+
+    height, weight = int(
+        float(input(" -> Enter the Height (in meters) : "))), float(input(" -> Enter the Weight (in kgs) : "))
+
+    print(" => The Final BMI Calculated is ", weight/height**2)
+
+# ---------------------------------------------------------------
 
 
 def main_menu():
@@ -83,16 +99,22 @@ def main_menu():
 =========================
 ''')
     print('''Enter the Operation : 
-    1. Calculation - 'C'
-    2. Simple Interest Calculator - 'SI'
+    1. Calculation - 'C' or 1
+    2. Simple Interest Calculation - 'SI' or 2
+    3. BMI Calculation - 'BMI' or 3
+    4. Press 4 to exit
 -------------------------
 ''')
     option = str(input("Which calculator you want to use : "))
 
-    if option == "Calculation" or option == "calculation" or option == "C" or option == "c" or option == "+" or option == "-" or option == "*" or option == "/":
+    if option == "Calculation" or option == "calculation" or option == "C" or option == "c" or option == "+" or option == "-" or option == "*" or option == "/" or option == str(1):
         mathematical_calculator()
-    elif option == "Simple Interest" or option == "simple interest" or option == "SI" or option == "si" or option == "interest":
+    elif option == "Simple Interest" or option == "simple interest" or option == "SI" or option == "si" or option == "interest" or option == str(2):
         simple_interest_calculator()
+    elif option == "BMI Calculator" or option == "BMI calculator" or option == "bmi calculator" or option == "BMI" or option == "bmi" or option == str(3):
+        bmi_calculator()
+    elif option == str(4) or option == "Exit" or option == "exit":
+        run = False
     else:
         print(" 'Please Enter the right Input' ")
         main_menu()
@@ -100,4 +122,6 @@ def main_menu():
 # ==================================================================
 
 
-main_menu()
+run = True
+while (run):
+    main_menu()
