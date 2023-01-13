@@ -4,13 +4,14 @@
 
 # CALCULATOR made with Python
 
-### ~ Calculator for Mathematical and Simple Interest Calculation (CLI Version)
+### ~ Calculator for Mathematical, Simple Interest and BMI Calculation (CLI Version)
 
 
 ## Operations
 
 - Mathematical Calculations
 - Simple Interest Calculation
+- BMI Cal
 
 
 ## Screenshots
